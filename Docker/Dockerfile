@@ -1,4 +1,4 @@
 FROM anapsix/alpine-java
 MAINTAINER venkat 
-COPY NumberGenerator-1.0.1-SNAPSHOT.jar /home/NumberGenerator-1.0.1-SNAPSHOT
-CMD ["java","-jar","/home/NumberGenerator-1.0.1-SNAPSHOT.jar"]
+COPY myapp-1.0-SNAPSHOT.jar /home/myapp-1.0-SNAPSHOT
+CMD ["java","-jar","/home/myapp-1.0-SNAPSHOT.jar"]
